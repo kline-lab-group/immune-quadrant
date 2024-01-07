@@ -1,4 +1,4 @@
-# Functions for to make clusters in Tumuluru and Godfrey et al.
+# Functions to make clusters in Tumuluru and Godfrey et al.
 
 #######################################################
 # Dependencies:
@@ -6,6 +6,9 @@
 #     - tidyverse
 #     - ggfortify
 #######################################################
+
+
+# The pipeline contains 3 functions (gsva, pca, and kmeans) which can be run all together in make_clusters
 
 fun_gsva <- function(lcpm, genesets = tib_genesets) {
   # Run GSVA
