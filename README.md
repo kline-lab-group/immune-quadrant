@@ -15,7 +15,7 @@ source("make_clusters.R")
 x <- readRDS("log2cpm_matrix.rds")
 
 # Read in gene sets
-tib_genesets <- read_csv(file = "genesets.csv",  col_types = "cc")
+tib_genesets <- read_csv(file = "genesets.csv", col_types = "cc")
 
 # Run clustering pipeline
 # List includes GSVA scores, PCA data, clusters, PCA plot, and PCA biplot
