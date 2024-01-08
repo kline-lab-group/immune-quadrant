@@ -149,7 +149,7 @@ fun_make_clusters <- function(lcpm, genesets = tib_genesets, seed = 900, bool_pl
   #   genesets - a dataframe of genesets to be used for GSVA
   #            - expects "gene" column with HUGO gene IDs and "gs" column with the name of the corresponding gene set
   #   seed - seed for reproducible results
-  #   bool_plot - if TRUE, makes a PCA plot and a PCA biplot using autoplot()
+  #   bool_plot - if TRUE, makes a PCA plot and a PCA biplot
   
   set.seed(seed)
   

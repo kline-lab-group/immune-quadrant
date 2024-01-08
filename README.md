@@ -6,8 +6,8 @@ Functions can be found in `make_clusters.R`.
 How to run:
 ```r
 library(GSVA)
-library(ggfortify)
 library(tidyverse)
+library(ggfortify)
 
 source("make_clusters.R")
 
