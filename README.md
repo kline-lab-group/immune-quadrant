@@ -12,7 +12,7 @@ library(ggfortify)
 source("make_clusters.R")
 
 # Read in log2CPM matrix
-x <- readRDS("log2cpm_matrix.rds")
+x <- readRDS("your_log2cpm_matrix.rds")
 
 # Read in gene sets
 tib_genesets <- read_csv(file = "genesets.csv", col_types = "cc")
